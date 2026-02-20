@@ -1274,7 +1274,7 @@
       <!-- Program Committee and Sponsors Section -->
       <div style="position: relative; padding: 2rem; max-width: 1200px; margin: 2rem auto; height: 300px;">
         <!-- Program Committee -->
-        <div style="position: absolute; left: 0; top: 0; width: 60%; background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; justify-content: flex-start;">
+        <div style="position: absolute; left: 0; top: 0; width: 60%; height: 260px; background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; justify-content: flex-start;">
           <h2 style="color: var(--primary-blue); font-size: 1.6rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">Program Committee.</h2>
           <div style="display: flex; flex-direction: column; gap: 0.8rem;">
             <div style="background: rgba(19, 36, 77, 0.05); padding: 0.8rem 1rem; border-radius: 8px; border-left: 3px solid var(--accent-cyan);">Pietro Liò</div>
@@ -1284,14 +1284,20 @@
         </div>
 
         <!-- Sponsors -->
-        <div style="position: absolute; right: 0; top: 0; width: 35%; background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center; justify-content: flex-start;">
-          <h2 style="color: var(--primary-blue); font-size: 1.6rem; font-weight: 700; margin-bottom: 2rem;">Sponsors</h2>
-          <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+        <a href="https://github.com/XeonLabs" target="_blank" style="position: absolute; right: 0; top: 0; width: 35%; height: 260px; background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; text-decoration: none; color: inherit; transition: all 0.3s ease;">
+          <style>
+            a:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+            }
+          </style>
+          <h2 style="color: var(--primary-blue); font-size: 1.6rem; font-weight: 700; margin-bottom: 1rem;">Sponsors</h2>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
             <img src="image.png" alt="XeonLabs Logo" style="height: 80px; width: auto;" />
             <h3 style="color: var(--primary-blue); font-size: 1.8rem; font-weight: bold; margin: 0;">XeonLabs</h3>
             <p style="color: var(--secondary-blue); font-size: 1rem; margin: 0;">Generous Support</p>
           </div>
-        </div>
+        </a>
       </div>
 
       <!-- Audience and Accessibility Section -->
